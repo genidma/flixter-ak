@@ -77,4 +77,9 @@ Flixster::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  #OCT-6-2014 : Adding default URL options as specified in the documentation for the devise gem install
+  config.action_mailer.default_url_options = { :host => 'http://flixter-ak.herokuapp.com'}
+
+
 end
