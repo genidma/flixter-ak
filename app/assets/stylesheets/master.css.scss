@@ -71,3 +71,10 @@ font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucid
   clear:both;
 }
 
+.field_with_errors {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding:8px;
+  margin:10px;
+}
